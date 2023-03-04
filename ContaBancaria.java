@@ -1,7 +1,10 @@
 import java.util.Scanner;
 
 public class ContaBancaria {
-    public String cliente;
+
+
+
+    public String cliente="João";
     public int num_conta = 2;
     public float saldo = 100;
 
@@ -25,6 +28,8 @@ public class ContaBancaria {
         if (saldo < valSacar) {
             System.out.println("Saldo insuficiente!");
             System.out.println("Saldo disponível: " + saldo);
+
+
 
 
         } else {
