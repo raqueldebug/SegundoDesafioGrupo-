@@ -8,6 +8,7 @@ ContaBancariaEdicao edicao = new ContaBancariaEdicao();
 
         System.out.println("Caro "+contaEspecial.cliente+"\nConta criada, nº: 2\nSaldo inicial de "+ contaEspecial.saldo);
        edicao .sacar();
+        System.out.println("");
         contaBancaria.depositar();
 
 
